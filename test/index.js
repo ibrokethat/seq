@@ -1,6 +1,6 @@
 var assert    = require("assert"),
     sinon     = require("sinon"),
-    sequences = require("../index"),
+    sequences = require("../ibt-seq"),
     async     = require("ibt-async"),
     seq       = sequences.seq,
     step      = sequences.step,

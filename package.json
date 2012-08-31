@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git@github.com:ibrokethat/ibt-seq"
   },
-  "main": "index",
+  "main": "ibt-seq",
   "scripts": {
     "prepublish" : "npm prune",
     "test": "mocha -u bdd"
