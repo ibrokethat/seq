@@ -2,8 +2,8 @@
   @module  async sequence pipeline based upon promises
 */
 
-var async   = require("ibt-async"),
-    func    = require("ibt-func"),
+var async   = require("async"),
+    func    = require("func"),
     Promise = async.Promise,
     when    = async.when,
     bind    = func.bind,

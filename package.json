@@ -1,5 +1,5 @@
 {
-  "name": "ibt-seq",
+  "name": "seq",
   "description": "ibrokethat sequences",
   "version": "0.0.1",
   "author": "si@ibrokethat.com",
@@ -7,8 +7,8 @@
     { "name": "Simon Jefford", "email": "si@ibrokethat.com" }
   ],
   "dependencies": {
-    "ibt-async": "git+ssh://git@github.com:ibrokethat/ibt-async",
-    "ibt-func": "git+ssh://git@github.com:ibrokethat/ibt-func"
+    "async": "git+ssh://git@github.com:ibrokethat/async",
+    "func": "git+ssh://git@github.com:ibrokethat/func"
   },
   "devDependencies": {
     "mocha": "1.2.x",
@@ -17,9 +17,9 @@
   "keywords": ["ibrokethat", "sequences"],
   "repository": {
     "type": "git",
-    "url": "git@github.com:ibrokethat/ibt-seq"
+    "url": "git@github.com:ibrokethat/seq"
   },
-  "main": "ibt-seq",
+  "main": "seq",
   "scripts": {
     "prepublish" : "npm prune",
     "test": "mocha -u bdd"

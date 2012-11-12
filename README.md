@@ -1,17 +1,17 @@
-# ibt-seq
+# seq
 
 sequences
 
 ## Install
 
-       npm install ibt-seqe
+       npm install seq
 
 
-##  What is ibt-seq?
+##  What is seq?
 
 
 
-##  Using ibt-seq
+##  Using seq
 
 
 ## License
