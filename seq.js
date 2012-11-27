@@ -2,12 +2,12 @@
   @module  async sequence pipeline based upon promises
 */
 
-var async   = require("async"),
-    func    = require("func"),
-    Promise = async.Promise,
-    when    = async.when,
-    bind    = func.bind,
-    partial = func.partial;
+var async   = require("async");
+var func    = require("func");
+var Promise = async.Promise;
+var when    = async.when;
+var bind    = func.bind;
+var partial = func.partial;
 
 
 /**
