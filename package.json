@@ -19,7 +19,10 @@
     "type": "git",
     "url": "git@github.com:ibrokethat/seq"
   },
-  "main": "seq",
+  "ibrokethat": {
+    "buildClient": true
+  },
+  "main": "seq.js",
   "scripts": {
     "prepublish" : "npm prune",
     "test": "mocha -u bdd"
